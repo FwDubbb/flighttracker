@@ -1,0 +1,23 @@
+US Airports
+
+NAME
+CITY
+STATE
+FAA		3 LETTER CODE
+
+
+
+NEXT: FLIGHTS
+
+
+SOURCE DESTINATION						(airport code)
+DEPARTURE TIME							( 0900 )	[	hhmm	]
+ARRIVAL TIME							( 1100 )	[	hhmm	]
+COST									( int )	
+MILES									( int )
+AIRLINES								( no spaces in name )		
+FLIGHT CODES							( UA591 )
+
+
+cp yourfile /tmp/air/flight2
+cp yourfile /tmp/air/airport2
